@@ -38,23 +38,23 @@
 
       Parameters:
          1. personalToken - This is a RESTAPI bearer token. 
-            You can get the bearer token for RESTAPI Access, by following these instructions:
-            . Access your developer account at app.optimizely.com. Once logged in, the dashboard is displayed.
-            . Click Profile on the bottom left hand corner of the navigation tree.
-            . Select the API Access tab.
-            . Click Generate New Token.
-            . Enter a name for the new token on the popup and click Create. The website will redirect to the dashboard.
-            . Copy the token value from the Token column on the dashboard.
+            *You can get the bearer token for RESTAPI Access, by following these instructions:
+             * Access your developer account at app.optimizely.com. Once logged in, the dashboard is displayed.
+             * Click Profile on the bottom left hand corner of the navigation tree.
+             * Select the API Access tab.
+             * Click Generate New Token.
+             * Enter a name for the new token on the popup and click Create. The website will redirect to the dashboard.
+             * Copy the token value from the Token column on the dashboard.
          
          2. personalProject - Project ID that you are wanting to report usage of experiments and features on.
-            You can get the Project ID of a Project by following these instructions:
-            . Access your developer account at app.optimizely.com. Once logged in, the dashboard is displayed.
-            . Click the Projects menu on the left menu, and select your project
-            . Then click the Experiments menu on the left, and all of the experiments will show up on the main display. 
-            . Click on an Experiment name, and a new menu will be displayed on the left hand side. 
-            . Click the menu named:  API Names
-            . After clicking that there will be information that will be displayed, and you should find the section: Experiment Details.
-            . Copy the field named Project ID.
+            *You can get the Project ID of a Project by following these instructions:
+             * Access your developer account at app.optimizely.com. Once logged in, the dashboard is displayed.
+             * Click the Projects menu on the left menu, and select your project
+             * Then click the Experiments menu on the left, and all of the experiments will show up on the main display. 
+             * Click on an Experiment name, and a new menu will be displayed on the left hand side. 
+             * Click the menu named:  API Names
+             * After clicking that there will be information that will be displayed, and you should find the section: Experiment Details.
+             * Copy the field named Project ID.
 
          3. includeArchive - This parameter is defaulted to False, which means it will filter out all of the archived Audiences, Experiments, and Features from the report. If you want that data, then you can pass (true) to the function call. 
 
