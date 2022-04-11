@@ -1,0 +1,16 @@
+{
+  "name": "optimizely_rest_toolkit",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Optimizely Rest API Wrapper Toolkit",
+  "main": "FlagUsageReport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "node-fetch": "^3.2.0"
+  }
+}
